@@ -95,18 +95,3 @@ def save_after_instruction(after_instruction_path, before_instruction, after_ins
    
    with open(after_instruction_path, "w", encoding="utf-8") as f:
       json.dump(data, f, ensure_ascii=False, indent=2)
-
-
-if __name__ == '__main__':
-   
-   before_instruction = 'There is a tree with a fork in front of you. I need you navigate to it. Just walk forward and cease walking when you are almost touching the tree.'
-   model = 'deepseek-r1'
-   # model = 'gpt-4.1'
-   # model = 'gemini-2.5-flash'
-   model = 'claude-3-7-sonnet-20250219'
-
-   thought, after_instruction = translator(before_instruction, model)
-
-   print(f'【Model】{model}')
-   print(f'【Thought】{thought}')
-   print(f'【After Instruction】{after_instruction}')
