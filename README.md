@@ -2,7 +2,7 @@
 <h1>T-araVLN: Translator for Agricultural Robotic Agents on Vision-and-Language Navigation</h1>
 <a href="https://arxiv.org/abs/2509.06644"><img src="https://img.shields.io/badge/arXiv-2509.06644-b31b1b" alt="arXiv"></a>
 
-[Xiaobei Zhao](https://github.com/AlexTraveling), [Xingqi Lyu](https://github.com/AlexTraveling), [Xiang Li](https://faculty.cau.edu.cn/lx_7543/),
+[Xiaobei Zhao](https://github.com/AlexTraveling), [Xingqi Lyu](https://github.com/AlexTraveling), [Xiang Li](https://faculty.cau.edu.cn/lx_7543/)
 
 **[China Agricultural University](https://ciee.cau.edu.cn)**
 
