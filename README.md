@@ -16,5 +16,8 @@ Agricultural robotic agents have been becoming powerful helpers in a wide range 
 ## Our Method
 We propose the method of Translator for Agricultural Robotic Agents on Vision-and-Language Navigation (T-araVLN), in which the Instruction Translator module translates the original instruction to be more refined and precise. When evaluated on the A2A benchmark, our T-araVLN effectively improves Success Rate from 0.47 to 0.63 and reduces Navigation Error from 2.91m to 2.28m, demonstrating the state-of-the-art performance in the agricultural domain.
 
+![Method of T-araVLN](image_for_readme/fig_method.jpeg)
+
 ## Quick Start
-The code of Instruction Translator is available now. The complete code of T-araVLN will be available after the paper is published.
+The code of the Instruction Translator module is available now. 
+The complete code of the T-araVLN method will be available after the paper is published.
