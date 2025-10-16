@@ -7,17 +7,24 @@
 **[China Agricultural University](https://ciee.cau.edu.cn)**
 
 ![Overview of T-araVLN](image_for_readme/fig_teaser.jpg)
-
 </div>
 
-## Target Issue
+## Overview
 Agricultural robotic agents have been becoming powerful helpers in a wide range of agricultural tasks, however, still heavily rely on manual operation or fixed railways for movement. To address this limitation, the AgriVLN method and the A2A benchmark pioneeringly extend Vision-and-Language Navigation (VLN) to the agricultural domain, enabling agents to navigate to the target positions following the natural language instructions. AgriVLN effectively understands the simple instructions, but often misunderstands the complex ones.
 
-## Our Method
 We propose the method of Translator for Agricultural Robotic Agents on Vision-and-Language Navigation (T-araVLN), in which the Instruction Translator module translates the original instruction to be more refined and precise. When evaluated on the A2A benchmark, our T-araVLN effectively improves Success Rate from 0.47 to 0.63 and reduces Navigation Error from 2.91m to 2.28m, demonstrating the state-of-the-art performance in the agricultural domain.
 
 ![Method of T-araVLN](image_for_readme/fig_method.jpeg)
 
 ## Quick Start
-The code of the Instruction Translator module is available now. 
-The complete code of the T-araVLN method will be available after the paper is published.
+The code of the Instruction Translator module is available now, and the complete code of the T-araVLN method will be available after the paper is published.
+
+## Cite
+```bibtex
+@inproceedings{T-araVLN,
+  title={T-araVLN: Translator for Agricultural Robotic Agents on Vision-and-Language Navigation},
+  author={Xiaobei Zhao and Xingqi Lyu and Xiang Li},
+  booktitle={arXiv:2509.06644},
+  year={2025}
+}
+```
