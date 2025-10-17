@@ -17,7 +17,42 @@ We propose the method of Translator for Agricultural Robotic Agents on Vision-an
 ![Method of T-araVLN](image_for_readme/fig_method.jpeg)
 
 ## Quick Start
-The code of the Instruction Translator module is available now, and the complete code of the T-araVLN method will be available after the paper is published.
+Download the source code of the T-araVLN method.
+```bash
+git clone git@github.com:AlexTraveling/T-araVLN.git
+cd T-araVLN-main
+```
+Create a new conda environment, then install all the dependent packages.
+```bash
+conda create -n T-araVLN python=3.11
+conda activate T-araVLN
+pip install -r requirements.txt
+```
+Open the home.py file to replace your API and API key.
+```python
+client = OpenAI(api_key=get_api_key(place), base_url="replace_by_your_api")
+```
+```python
+def get_api_key(place):
+   api_key_house = {
+      "farm": "replace_by_your_api_key_1",
+      "greenhouse": "replace_by_your_api_key_2",
+      "forest": "replace_by_your_api_key_3",
+      "mountain": "replace_by_your_api_key_4",
+      "garden": "replace_by_your_api_key_5",
+      "village": "replace_by_your_api_key_6"
+   }
+   if place not in api_key_house:
+      raise ValueError(f"[Error] Unknown scene: {place}")
+   else:
+      api_key = api_key_house[place]
+      return api_key
+```
+Run the home.py file to start the T-araVLN method, in which all the six place classifications are available: farm, greenhouse, forest, mountain, garden and village.
+```bash
+python home.py --place farm
+```
+The running results will be shown in terminal and saved in local.
 
 ## Cite
 ```bibtex
