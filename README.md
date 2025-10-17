@@ -9,6 +9,8 @@
 xiaobeizhao2002@163.com, lxq99725@163.com, cqlixiang@cau.edu.cn
 
 ![Overview of T-araVLN](image_for_readme/fig_teaser.jpg)
+
+*“Best love to T-ara, the K-pop group accompanying me to grow up.”*
 </div>
 
 ## Updates
