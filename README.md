@@ -9,6 +9,10 @@
 ![Overview of T-araVLN](image_for_readme/fig_teaser.jpg)
 </div>
 
+## Updates
+- [October 17th, 2025] We open-source the complete code of the T-araVLN method, and provide the corresponding guidance to set up.
+- [October 2st, 2025] We open-source the code of the instruction translator module.
+
 ## Overview
 Agricultural robotic agents have been becoming powerful helpers in a wide range of agricultural tasks, however, still heavily rely on manual operation or fixed railways for movement. To address this limitation, the AgriVLN method and the A2A benchmark pioneeringly extend Vision-and-Language Navigation (VLN) to the agricultural domain, enabling agents to navigate to the target positions following the natural language instructions. AgriVLN effectively understands the simple instructions, but often misunderstands the complex ones.
 
