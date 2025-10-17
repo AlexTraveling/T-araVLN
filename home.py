@@ -31,12 +31,12 @@ def check_label_format(label_path):
 
 def get_api_key(place):
    api_key_house = {
-      "farm": "sk-bjGxtfga3vco50nL813657623c4c429eB0Bb7bA085A0FcAf",
-      "greenhouse": "sk-mY5lnwAnT04g0FDqCbCfAbC575F445108640F2Cd61Cb0055",
-      "forest": "sk-qR2VkWocbdujoCnkD3E24376E33049098e01835cE58559F9",
-      "mountain": "sk-Lcx0kGh0mGqg2BXl15Fc8aE04e4c4b22928f09093a712a78",
-      "garden": "sk-mbnk1SpyBDT5u3kbC105C83eEe9e44Cf952fD48c13Ce379b",
-      "village": "sk-ir7M8JaWFdhGUhgk5605151675914664Ae12Cb937c5b7110"
+      "farm": "replace_by_your_api_key_1",
+      "greenhouse": "replace_by_your_api_key_2",
+      "forest": "replace_by_your_api_key_3",
+      "mountain": "replace_by_your_api_key_4",
+      "garden": "replace_by_your_api_key_5",
+      "village": "replace_by_your_api_key_6"
    }
    if place not in api_key_house:
       raise ValueError(f"[Error] Unknown scene: {place}")
@@ -60,7 +60,7 @@ if __name__ == '__main__':
    print(f'scene: {place}')
    print(f'id_range: {id_range}')
 
-   client = OpenAI(api_key=get_api_key(place), base_url="https://api.laozhang.ai/v1")
+   client = OpenAI(api_key=get_api_key(place), base_url="replace_by_your_api")
    
    for id in id_range:
       dir_path = f"runs/{exp}/{place}_{id}"
