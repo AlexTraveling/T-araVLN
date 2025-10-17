@@ -6,6 +6,8 @@
 
 **[China Agricultural University](https://ciee.cau.edu.cn)**
 
+xiaobeizhao2002@163.com, lxq99725@163.com, cqlixiang@cau.edu.cn
+
 ![Overview of T-araVLN](image_for_readme/fig_teaser.jpg)
 </div>
 
