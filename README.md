@@ -61,7 +61,7 @@ python home.py --place farm
 ```
 The running results will be shown in terminal and saved in local.
 
-## Cite
+## Citation
 ```bibtex
 @inproceedings{T-araVLN,
   title={T-araVLN: Translator for Agricultural Robotic Agents on Vision-and-Language Navigation},
