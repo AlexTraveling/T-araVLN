@@ -12,14 +12,13 @@
 
 xiaobeizhao2002@163.com, lxq99725@163.com, chxin@cau.edu.cn, cqlixiang@cau.edu.cn
 
-<!-- <sup>✉️</sup> Corresponding Authors -->
-
 ![Overview of T-araVLN](image_for_readme/fig_teaser.jpg)
 
 *“Best love to T-ara, the K-pop group accompanying me to grow up.”*
 </div>
 
 ## Updates
+- [March 26th, 2026] We add more details in our paper “T-araVLN: Translator for Agricultural Robotic Agents on Vision-and-Language Navigation”, which will be available for reading on [arXiv](https://arxiv.org/abs/2509.06644) soon.
 - [October 17th, 2025] We open-source the complete code of the T-araVLN method, and provide the corresponding guidance to set up.
 - [October 2nd, 2025] We open-source the code of the instruction translator module.
 - [September 18th, 2025] The paper “T-araVLN: Translator for Agricultural Robotic Agents on Vision-and-Language Navigation” is available for reading on [arXiv](https://arxiv.org/abs/2509.06644).
@@ -70,6 +69,7 @@ python home.py --place farm
 The running results will be shown in terminal and saved in local.
 
 ## Citation
+If our paper or method is helpful for your research, welcome you use the following citation:
 ```bibtex
 @inproceedings{T-araVLN,
   title={T-araVLN: Translator for Agricultural Robotic Agents on Vision-and-Language Navigation},
