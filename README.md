@@ -18,7 +18,7 @@ xiaobeizhao2002@163.com, lxq99725@163.com, chxin@cau.edu.cn, cqlixiang@cau.edu.c
 </div>
 
 ## Updates
-- [March 26th, 2026] We add more details in our paper “T-araVLN: Translator for Agricultural Robotic Agents on Vision-and-Language Navigation”, which will be available for reading on [arXiv](https://arxiv.org/abs/2509.06644) soon.
+- [March 26th, 2026] We add more details in our paper “T-araVLN: Translator for Agricultural Robotic Agents on Vision-and-Language Navigation”, which is available for reading on [arXiv](https://arxiv.org/abs/2509.06644).
 - [October 17th, 2025] We open-source the complete code of the T-araVLN method, and provide the corresponding guidance to set up.
 - [October 2nd, 2025] We open-source the code of the instruction translator module.
 - [September 18th, 2025] The paper “T-araVLN: Translator for Agricultural Robotic Agents on Vision-and-Language Navigation” is available for reading on [arXiv](https://arxiv.org/abs/2509.06644).
